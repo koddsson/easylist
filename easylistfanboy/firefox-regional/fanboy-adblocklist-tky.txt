@@ -59,7 +59,6 @@
 /renklam/*
 /rightreklam1.
 /servad.
-/todayszaman/banners/*
 _reklam_125_
 !
 ! ---------- 1st party blocking rules ----------
@@ -67,7 +66,6 @@ _reklam_125_
 ||213.137.61.43/banners/
 ||50.7.242.74^*/splash.php
 ||acunn.com/static/images/acunnbanner
-||add.bugun.com.tr/show/?$script
 ||ads.garga.biz^
 ||ads.zamunda.net^
 ||adv.letitbit.net^
@@ -80,7 +78,6 @@ _reklam_125_
 ||antoloji.com/images/banners/
 ||aofforum.com^*banner
 ||appleturk.net^*.swf
-||aslanlar.tv/js/popup.js
 ||azginvideoo.com/vpillsss.gif
 ||azgnvideo.com/vidust.gif
 ||bitturk.net/banner.gif
@@ -167,7 +164,6 @@ _reklam_125_
 ||mynet.com/*/pageskin/
 ||nationalturk.com/media/banner/
 ||nethaber.com/TextBanner.
-||ntvmsnbc.com/adv/
 ||odatv.com/staticimages/
 ||ogile.com/banner
 ||orosbum.info/popup.swf
@@ -230,7 +226,6 @@ _reklam_125_
 ||xpornosikis1.com/splash.php
 ||xsikisizle.net/splash.php
 ||yabancidiziizle.com/logro.html
-||yahoyt.com/main_banner
 ||yenicaggazetesi.com.tr/banner/
 ||zehirli.net/splash.
 ||zevkli.org/okey.gif
@@ -242,9 +237,7 @@ _reklam_125_
 ||217.195.197.45^
 ||ad.donanimhaber.com^
 ||ad.logro.com.tr^
-||ad.ntvmsnbc.com^
 ||ad.webservis.gen.tr^
-||ad.zaman.com.tr^
 ||ad4game.sharingcentre.net^
 ||adpozitif.com^
 ||adpre.com^
@@ -262,7 +255,6 @@ _reklam_125_
 ||banners.tempobet.com^
 ||bumerangshowsites.hurriyet.com.tr^
 ||buyuksun.com^
-||e-kolay.net^
 ||leetmedia.com/spot.php
 ||medyaklik.com^
 ||reklamalan.com^
@@ -366,12 +358,8 @@ _reklam_125_
 !
 !---------- Whitelist  ----------
 !
-@@||ad.e-kolay.net/bt.js$domain=ekolay.net
-@@||ad.e-kolay.net/crossdomain.xml$object-subrequest
-@@||ad.e-kolay.net/MNetOrfad.js?$domain=ekolay.net
 @@||ad.e-kolay.net/vast.a2?target$domain=milliyet.com.tr|shiftdelete.net
 @@||ad.e-kolay.net/xmlad.a2?target$domain=medyafaresi.com
-@@||ad.e-kolay.net^*.swf^$object,domain=ekolay.net
 @@||cdntr.com/ntvspor/reklam_playlist.asp
 @@||delivery.reklamz.com/please/showit/$domain=xdiziizle.com
 @@||mynet.com.tr/ads/*/clientAds-devel.js$domain=video.mynet.com
@@ -383,7 +371,6 @@ _reklam_125_
 !---------- Turkish Trackers ----------
 !
 ||alkislarlayasiyorum.com/tracker.html
-||bugun.com.tr^*/stat.aspx?
 ||genelistatistik3.milliyet.com.tr^
 ||istatistik.fanatik.com.tr^$third-party
 ||letitbit.net/counter/
@@ -399,7 +386,6 @@ beyazgazete.com##[style="float: left; width: 300px; height: 250px; margin-top: 1
 beyazgazete.com##[style="float: left; width: 300px; height: 250px; margin-top: 5px;"]
 beyazgazete.com##[style="float: right; width: 480px; height: 76px;"]
 beyazgazete.com##[style="float: right; width: 728px; height: 100px;"]
-samanyoluhaber.com##[style="position: absolute; text-align: center; left: 55px; height: 90px; border-style: solid; border-width: 1px; border-color: Black; top: 9px; bottom: 2px; width: 728px; clear: left;"]
 !
 !---------- Turkish Generic Element Hiding Rules ----------
 !
@@ -537,7 +523,6 @@ bizimkocaeli.com##.asag_anket_alti
 blog.milliyet.com.tr##td[width="728"][height="90"]
 bolpornoizle.com###reklam
 bolumsonucanavari.com##.reklam
-bugun.com.tr##.griDiv
 burclar.gen.tr###yanreklamkismi
 burclar.gen.tr##a[href^="/reklam.asp?"]
 burclar.gen.tr##div[style="margin:10px;height:280px;width:336px;text-align:justify;float:left;background-color:#fff;"]
@@ -593,11 +578,6 @@ dunyagazetesi.com.tr###rectHome
 dunyagazetesi.com.tr###rectHome2
 dunyagazetesi.com.tr###rectangleBanner
 ekoayrinti.com##.banner1
-ekolay.net###ekolay_anasayfa_300x250
-ekolay.net##.ContentMagazinMainRight_Banner
-ekolay.net##.HD_ContentRightBanner
-ekolay.net##.banner300x250
-ekolay.net##.textlink_cont
 ekolhoca.com##td[height="106"]
 ekonomi.milliyet.com.tr###\5f Middle2.colB
 eksisozluk.com###rklk
@@ -638,7 +618,6 @@ google.com.tr###tads
 google.com.tr##.ra[align="right"]
 google.com.tr##table[style="border: 1px solid #0000cc"]
 grafi2000.com###Layer4
-haber.ekolay.net##div[style="height: 200px; overflow: hidden; width: 300px; margin-bottom: 5px"]
 haber.turk.net###top_banner
 haber365.com###BN_SayfaOrta
 haber365.com###BN_SayfaUst
@@ -753,8 +732,6 @@ mynet.com##div[style="width:640px; height:180px; overflow:hidden;margin-top:15px
 mynet.com##div[style="width:640px; height:95px; overflow:hidden"]
 mynet.com##div[style="width:728px; height:22px; float:left; margin:15px 0 0 0; @margin:15px 15px 0 0;"]
 mynet.com##div[style="width:960px;margin:auto auto"]
-ntvmsnbc.com##.eshopStory
-nytimes.com##.ad
 odatv.com###pageskin
 odatv.com###resimreklam
 odatv.com##.banner468v2
@@ -787,10 +764,6 @@ sacitaslan.com##.reklam300
 sacitaslan.com##.tepebanner
 sadecegir.com##a[href="http://www.ashaber.com/"]
 sadecegir.com##a[href="http://www.websiteyapma.com/"]
-samanyoluhaber.com###SamanyoluHaber-Sagreklam
-samanyoluhaber.com##.reklam
-samanyoluhaber.com##[style="position:absolute; text-align: center; left:55px; height:90px;  border-style:solid; border-width:1px; border-color:Black; top:9px; bottom:2px; width:728px; clear:left; "]
-samanyoluhaber.com##div[style="width:310px; height:120px; text-align:center; margin-top:5px; padding-top:5px;"]
 sanliurfa.com##.banner
 sanliurfa.com##[style="height: 183px; width: 265px; float: left;"]
 scroll.com.tr##.reklam
@@ -812,7 +785,6 @@ tamindir.com###her_yer_ust
 tamindir.com##.reklam_sag
 tamindir.com##div[style="margin:0 auto; width:853px; height:105px; overflow:hidden;"]
 tamindir.com##td[style="padding-bottom:10px;"]
-taraf.com.tr##.taraf_inf_com
 tcdownload.org###toolbar
 techno-labs.com##[height="100"][width="738"]
 techno-labs.com##td[width="738"]
@@ -845,7 +817,6 @@ yabancidiziizle.com###toolbar
 yabancidiziizle.com##.videotextreklam
 yildiz.tv##div[style="padding:10px; margin-top:0px; margin-bottom:10px; "]
 yildiz.tv##div[style="padding:10px; margin-top:35px; margin-bottom:10px; "]
-zaman.com.tr###news-detail-bottom-banner
 zehirli.net###tamindir_topbar
 !
 !---------- Hiding Rules With Exceptions ----------
